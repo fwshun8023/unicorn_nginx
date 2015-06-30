@@ -1,0 +1,240 @@
+I, [2015-06-30T11:29:00.285113 #9243]  INFO -- : Started GET "/home/index" for 127.0.0.1 at 2015-06-30 11:29:00 +0800
+I, [2015-06-30T11:29:00.298317 #9243]  INFO -- : Processing by HomeController#index as HTML
+I, [2015-06-30T11:29:00.327233 #9243]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.8ms)
+I, [2015-06-30T11:29:00.329630 #9243]  INFO -- : Completed 200 OK in 31ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+I, [2015-06-30T11:29:00.375152 #9244]  INFO -- : Started GET "/stylesheets/application.css" for 127.0.0.1 at 2015-06-30 11:29:00 +0800
+I, [2015-06-30T11:29:00.375776 #9245]  INFO -- : Started GET "/javascripts/application.js" for 127.0.0.1 at 2015-06-30 11:29:00 +0800
+F, [2015-06-30T11:29:00.385956 #9245] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/application.js"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  unicorn (4.9.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.9.0) lib/unicorn/http_server.rb:674:in `worker_loop'
+  unicorn (4.9.0) lib/unicorn/http_server.rb:529:in `spawn_missing_workers'
+  unicorn (4.9.0) lib/unicorn/http_server.rb:540:in `maintain_worker_count'
+  unicorn (4.9.0) lib/unicorn/http_server.rb:294:in `join'
+  unicorn (4.9.0) bin/unicorn_rails:209:in `<top (required)>'
+  /Users/fw/.rvm/gems/ruby-2.2.2/bin/unicorn_rails:23:in `load'
+  /Users/fw/.rvm/gems/ruby-2.2.2/bin/unicorn_rails:23:in `<main>'
+
+
+F, [2015-06-30T11:29:00.386228 #9244] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  unicorn (4.9.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.9.0) lib/unicorn/http_server.rb:674:in `worker_loop'
+  unicorn (4.9.0) lib/unicorn/http_server.rb:529:in `spawn_missing_workers'
+  unicorn (4.9.0) lib/unicorn/http_server.rb:540:in `maintain_worker_count'
+  unicorn (4.9.0) lib/unicorn/http_server.rb:294:in `join'
+  unicorn (4.9.0) bin/unicorn_rails:209:in `<top (required)>'
+  /Users/fw/.rvm/gems/ruby-2.2.2/bin/unicorn_rails:23:in `load'
+  /Users/fw/.rvm/gems/ruby-2.2.2/bin/unicorn_rails:23:in `<main>'
+
+
+I, [2015-06-30T11:29:06.411255 #9243]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-06-30 11:29:06 +0800
+I, [2015-06-30T11:29:06.411931 #9243]  INFO -- : Processing by HomeController#index as HTML
+I, [2015-06-30T11:29:06.412650 #9243]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.0ms)
+I, [2015-06-30T11:29:06.413226 #9243]  INFO -- : Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+I, [2015-06-30T11:29:06.433679 #9244]  INFO -- : Started GET "/javascripts/application.js" for 127.0.0.1 at 2015-06-30 11:29:06 +0800
+F, [2015-06-30T11:29:06.435284 #9244] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/application.js"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  unicorn (4.9.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.9.0) lib/unicorn/http_server.rb:674:in `worker_loop'
+  unicorn (4.9.0) lib/unicorn/http_server.rb:529:in `spawn_missing_workers'
+  unicorn (4.9.0) lib/unicorn/http_server.rb:540:in `maintain_worker_count'
+  unicorn (4.9.0) lib/unicorn/http_server.rb:294:in `join'
+  unicorn (4.9.0) bin/unicorn_rails:209:in `<top (required)>'
+  /Users/fw/.rvm/gems/ruby-2.2.2/bin/unicorn_rails:23:in `load'
+  /Users/fw/.rvm/gems/ruby-2.2.2/bin/unicorn_rails:23:in `<main>'
+
+
+I, [2015-06-30T11:29:06.435661 #9247]  INFO -- : Started GET "/stylesheets/application.css" for 127.0.0.1 at 2015-06-30 11:29:06 +0800
+F, [2015-06-30T11:29:06.441603 #9247] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  unicorn (4.9.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.9.0) lib/unicorn/http_server.rb:674:in `worker_loop'
+  unicorn (4.9.0) lib/unicorn/http_server.rb:529:in `spawn_missing_workers'
+  unicorn (4.9.0) lib/unicorn/http_server.rb:540:in `maintain_worker_count'
+  unicorn (4.9.0) lib/unicorn/http_server.rb:294:in `join'
+  unicorn (4.9.0) bin/unicorn_rails:209:in `<top (required)>'
+  /Users/fw/.rvm/gems/ruby-2.2.2/bin/unicorn_rails:23:in `load'
+  /Users/fw/.rvm/gems/ruby-2.2.2/bin/unicorn_rails:23:in `<main>'
+
+
+I, [2015-06-30T11:29:08.234654 #9243]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-06-30 11:29:08 +0800
+I, [2015-06-30T11:29:08.235500 #9243]  INFO -- : Processing by HomeController#index as HTML
+I, [2015-06-30T11:29:08.236254 #9243]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.0ms)
+I, [2015-06-30T11:29:08.236891 #9243]  INFO -- : Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+I, [2015-06-30T11:29:08.249144 #9247]  INFO -- : Started GET "/stylesheets/application.css" for 127.0.0.1 at 2015-06-30 11:29:08 +0800
+I, [2015-06-30T11:29:08.249166 #9243]  INFO -- : Started GET "/javascripts/application.js" for 127.0.0.1 at 2015-06-30 11:29:08 +0800
+F, [2015-06-30T11:29:08.250351 #9243] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/application.js"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  unicorn (4.9.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.9.0) lib/unicorn/http_server.rb:674:in `worker_loop'
+  unicorn (4.9.0) lib/unicorn/http_server.rb:529:in `spawn_missing_workers'
+  unicorn (4.9.0) lib/unicorn/http_server.rb:540:in `maintain_worker_count'
+  unicorn (4.9.0) lib/unicorn/http_server.rb:294:in `join'
+  unicorn (4.9.0) bin/unicorn_rails:209:in `<top (required)>'
+  /Users/fw/.rvm/gems/ruby-2.2.2/bin/unicorn_rails:23:in `load'
+  /Users/fw/.rvm/gems/ruby-2.2.2/bin/unicorn_rails:23:in `<main>'
+
+
+F, [2015-06-30T11:29:08.250483 #9247] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  unicorn (4.9.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.9.0) lib/unicorn/http_server.rb:674:in `worker_loop'
+  unicorn (4.9.0) lib/unicorn/http_server.rb:529:in `spawn_missing_workers'
+  unicorn (4.9.0) lib/unicorn/http_server.rb:540:in `maintain_worker_count'
+  unicorn (4.9.0) lib/unicorn/http_server.rb:294:in `join'
+  unicorn (4.9.0) bin/unicorn_rails:209:in `<top (required)>'
+  /Users/fw/.rvm/gems/ruby-2.2.2/bin/unicorn_rails:23:in `load'
+  /Users/fw/.rvm/gems/ruby-2.2.2/bin/unicorn_rails:23:in `<main>'
+
+
+I, [2015-06-30T11:29:10.257700 #9247]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-06-30 11:29:10 +0800
+I, [2015-06-30T11:29:10.259554 #9247]  INFO -- : Processing by HomeController#index as HTML
+I, [2015-06-30T11:29:10.273118 #9247]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.4ms)
+I, [2015-06-30T11:29:10.274387 #9247]  INFO -- : Completed 200 OK in 15ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+I, [2015-06-30T11:29:10.287897 #9244]  INFO -- : Started GET "/stylesheets/application.css" for 127.0.0.1 at 2015-06-30 11:29:10 +0800
+F, [2015-06-30T11:29:10.289293 #9244] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  unicorn (4.9.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.9.0) lib/unicorn/http_server.rb:674:in `worker_loop'
+  unicorn (4.9.0) lib/unicorn/http_server.rb:529:in `spawn_missing_workers'
+  unicorn (4.9.0) lib/unicorn/http_server.rb:540:in `maintain_worker_count'
+  unicorn (4.9.0) lib/unicorn/http_server.rb:294:in `join'
+  unicorn (4.9.0) bin/unicorn_rails:209:in `<top (required)>'
+  /Users/fw/.rvm/gems/ruby-2.2.2/bin/unicorn_rails:23:in `load'
+  /Users/fw/.rvm/gems/ruby-2.2.2/bin/unicorn_rails:23:in `<main>'
+
+
+I, [2015-06-30T11:29:10.290196 #9246]  INFO -- : Started GET "/javascripts/application.js" for 127.0.0.1 at 2015-06-30 11:29:10 +0800
+F, [2015-06-30T11:29:10.295998 #9246] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/application.js"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  unicorn (4.9.0) lib/unicorn/http_server.rb:580:in `process_client'
+  unicorn (4.9.0) lib/unicorn/http_server.rb:674:in `worker_loop'
+  unicorn (4.9.0) lib/unicorn/http_server.rb:529:in `spawn_missing_workers'
+  unicorn (4.9.0) lib/unicorn/http_server.rb:540:in `maintain_worker_count'
+  unicorn (4.9.0) lib/unicorn/http_server.rb:294:in `join'
+  unicorn (4.9.0) bin/unicorn_rails:209:in `<top (required)>'
+  /Users/fw/.rvm/gems/ruby-2.2.2/bin/unicorn_rails:23:in `load'
+  /Users/fw/.rvm/gems/ruby-2.2.2/bin/unicorn_rails:23:in `<main>'
+
+

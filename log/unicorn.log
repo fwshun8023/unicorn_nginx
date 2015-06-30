@@ -1,0 +1,351 @@
+I, [2015-06-30T10:37:19.428107 #8485]  INFO -- : unlinking existing socket=/tmp/unicorn.unicorn_nginx.sock
+I, [2015-06-30T10:37:19.428320 #8485]  INFO -- : listening on addr=/tmp/unicorn.unicorn_nginx.sock fd=9
+I, [2015-06-30T10:37:19.428409 #8485]  INFO -- : worker=0 spawning...
+I, [2015-06-30T10:37:19.429614 #8485]  INFO -- : worker=1 spawning...
+I, [2015-06-30T10:37:19.430401 #8485]  INFO -- : worker=2 spawning...
+I, [2015-06-30T10:37:19.431165 #8485]  INFO -- : worker=3 spawning...
+I, [2015-06-30T10:37:19.431009 #8486]  INFO -- : worker=0 spawned pid=8486
+I, [2015-06-30T10:37:19.431902 #8485]  INFO -- : worker=4 spawning...
+I, [2015-06-30T10:37:19.431599 #8486]  INFO -- : Refreshing Gem list
+I, [2015-06-30T10:37:19.431853 #8487]  INFO -- : worker=1 spawned pid=8487
+I, [2015-06-30T10:37:19.432445 #8487]  INFO -- : Refreshing Gem list
+I, [2015-06-30T10:37:19.432563 #8488]  INFO -- : worker=2 spawned pid=8488
+I, [2015-06-30T10:37:19.433089 #8488]  INFO -- : Refreshing Gem list
+I, [2015-06-30T10:37:19.433351 #8489]  INFO -- : worker=3 spawned pid=8489
+I, [2015-06-30T10:37:19.434212 #8489]  INFO -- : Refreshing Gem list
+I, [2015-06-30T10:37:19.436459 #8485]  INFO -- : master process ready
+I, [2015-06-30T10:37:19.437952 #8490]  INFO -- : worker=4 spawned pid=8490
+I, [2015-06-30T10:37:19.438971 #8490]  INFO -- : Refreshing Gem list
+I, [2015-06-30T10:37:26.531349 #8488]  INFO -- : worker=2 ready
+I, [2015-06-30T10:37:26.531404 #8486]  INFO -- : worker=0 ready
+I, [2015-06-30T10:37:26.531530 #8490]  INFO -- : worker=4 ready
+I, [2015-06-30T10:37:26.531612 #8487]  INFO -- : worker=1 ready
+I, [2015-06-30T10:37:26.549675 #8489]  INFO -- : worker=3 ready
+I, [2015-06-30T10:39:01.384841 #8485]  INFO -- : reaped #<Process::Status: pid 8490 exit 0> worker=4
+I, [2015-06-30T10:39:01.387942 #8485]  INFO -- : reaped #<Process::Status: pid 8489 exit 0> worker=3
+I, [2015-06-30T10:39:01.388075 #8485]  INFO -- : reaped #<Process::Status: pid 8488 exit 0> worker=2
+I, [2015-06-30T10:39:01.388195 #8485]  INFO -- : reaped #<Process::Status: pid 8487 exit 0> worker=1
+I, [2015-06-30T10:39:01.388427 #8485]  INFO -- : reaped #<Process::Status: pid 8486 exit 0> worker=0
+I, [2015-06-30T10:39:01.389738 #8485]  INFO -- : master complete
+I, [2015-06-30T10:45:44.036292 #8671]  INFO -- : unlinking existing socket=/tmp/unicorn.unicorn_nginx.sock
+I, [2015-06-30T10:45:44.040129 #8671]  INFO -- : listening on addr=/tmp/unicorn.unicorn_nginx.sock fd=9
+I, [2015-06-30T10:45:44.040320 #8671]  INFO -- : worker=0 spawning...
+I, [2015-06-30T10:45:44.041849 #8671]  INFO -- : worker=1 spawning...
+I, [2015-06-30T10:45:44.042886 #8671]  INFO -- : worker=2 spawning...
+I, [2015-06-30T10:45:44.043948 #8671]  INFO -- : worker=3 spawning...
+I, [2015-06-30T10:45:44.045192 #8673]  INFO -- : worker=1 spawned pid=8673
+I, [2015-06-30T10:45:44.044242 #8672]  INFO -- : worker=0 spawned pid=8672
+I, [2015-06-30T10:45:44.046305 #8673]  INFO -- : Refreshing Gem list
+I, [2015-06-30T10:45:44.046641 #8672]  INFO -- : Refreshing Gem list
+I, [2015-06-30T10:45:44.045308 #8671]  INFO -- : worker=4 spawning...
+I, [2015-06-30T10:45:44.046641 #8674]  INFO -- : worker=2 spawned pid=8674
+I, [2015-06-30T10:45:44.047730 #8674]  INFO -- : Refreshing Gem list
+I, [2015-06-30T10:45:44.049322 #8675]  INFO -- : worker=3 spawned pid=8675
+I, [2015-06-30T10:45:44.050260 #8675]  INFO -- : Refreshing Gem list
+I, [2015-06-30T10:45:44.050384 #8671]  INFO -- : master process ready
+I, [2015-06-30T10:45:44.052157 #8676]  INFO -- : worker=4 spawned pid=8676
+I, [2015-06-30T10:45:44.052883 #8676]  INFO -- : Refreshing Gem list
+I, [2015-06-30T10:45:51.627328 #8674]  INFO -- : worker=2 ready
+I, [2015-06-30T10:45:51.634704 #8676]  INFO -- : worker=4 ready
+I, [2015-06-30T10:45:51.637861 #8675]  INFO -- : worker=3 ready
+I, [2015-06-30T10:45:51.640772 #8672]  INFO -- : worker=0 ready
+I, [2015-06-30T10:45:51.641149 #8673]  INFO -- : worker=1 ready
+I, [2015-06-30T10:46:04.289188 #8671]  INFO -- : reloading config_file=config/unicorn.rb
+I, [2015-06-30T10:46:04.301782 #8671]  INFO -- : done reloading config_file=config/unicorn.rb
+I, [2015-06-30T10:46:04.441559 #8671]  INFO -- : reaped #<Process::Status: pid 8672 exit 0> worker=0
+I, [2015-06-30T10:46:04.441734 #8671]  INFO -- : worker=0 spawning...
+I, [2015-06-30T10:46:04.444867 #8682]  INFO -- : worker=0 spawned pid=8682
+I, [2015-06-30T10:46:04.445523 #8682]  INFO -- : Refreshing Gem list
+I, [2015-06-30T10:46:04.455869 #8671]  INFO -- : reaped #<Process::Status: pid 8673 exit 0> worker=1
+I, [2015-06-30T10:46:04.456142 #8671]  INFO -- : worker=1 spawning...
+I, [2015-06-30T10:46:04.459332 #8683]  INFO -- : worker=1 spawned pid=8683
+I, [2015-06-30T10:46:04.460047 #8683]  INFO -- : Refreshing Gem list
+I, [2015-06-30T10:46:04.461849 #8671]  INFO -- : reaped #<Process::Status: pid 8676 exit 0> worker=4
+I, [2015-06-30T10:46:04.462092 #8671]  INFO -- : worker=4 spawning...
+I, [2015-06-30T10:46:04.464364 #8684]  INFO -- : worker=4 spawned pid=8684
+I, [2015-06-30T10:46:04.465057 #8684]  INFO -- : Refreshing Gem list
+I, [2015-06-30T10:46:04.471276 #8671]  INFO -- : reaped #<Process::Status: pid 8674 exit 0> worker=2
+I, [2015-06-30T10:46:04.471593 #8671]  INFO -- : worker=2 spawning...
+I, [2015-06-30T10:46:04.474318 #8671]  INFO -- : reaped #<Process::Status: pid 8675 exit 0> worker=3
+I, [2015-06-30T10:46:04.475138 #8685]  INFO -- : worker=2 spawned pid=8685
+I, [2015-06-30T10:46:04.476142 #8685]  INFO -- : Refreshing Gem list
+I, [2015-06-30T10:46:04.474585 #8671]  INFO -- : worker=3 spawning...
+I, [2015-06-30T10:46:04.481426 #8686]  INFO -- : worker=3 spawned pid=8686
+I, [2015-06-30T10:46:04.481964 #8686]  INFO -- : Refreshing Gem list
+I, [2015-06-30T10:46:11.839221 #8686]  INFO -- : worker=3 ready
+I, [2015-06-30T10:46:11.858054 #8682]  INFO -- : worker=0 ready
+I, [2015-06-30T10:46:11.865578 #8683]  INFO -- : worker=1 ready
+I, [2015-06-30T10:46:11.868969 #8685]  INFO -- : worker=2 ready
+I, [2015-06-30T10:46:11.872682 #8684]  INFO -- : worker=4 ready
+I, [2015-06-30T10:46:49.434579 #8671]  INFO -- : reaped #<Process::Status: pid 8686 exit 0> worker=3
+I, [2015-06-30T10:46:49.435966 #8671]  INFO -- : reaped #<Process::Status: pid 8685 exit 0> worker=2
+I, [2015-06-30T10:46:49.436071 #8671]  INFO -- : reaped #<Process::Status: pid 8684 exit 0> worker=4
+I, [2015-06-30T10:46:49.436141 #8671]  INFO -- : reaped #<Process::Status: pid 8683 exit 0> worker=1
+I, [2015-06-30T10:46:49.436197 #8671]  INFO -- : reaped #<Process::Status: pid 8682 exit 0> worker=0
+I, [2015-06-30T10:46:49.436570 #8671]  INFO -- : master complete
+I, [2015-06-30T10:48:20.135833 #8736]  INFO -- : unlinking existing socket=/tmp/unicorn.unicorn_nginx.sock
+I, [2015-06-30T10:48:20.139138 #8736]  INFO -- : listening on addr=/tmp/unicorn.unicorn_nginx.sock fd=9
+I, [2015-06-30T10:48:20.139525 #8736]  INFO -- : worker=0 spawning...
+I, [2015-06-30T10:48:20.140623 #8736]  INFO -- : worker=1 spawning...
+I, [2015-06-30T10:48:20.142400 #8736]  INFO -- : worker=2 spawning...
+I, [2015-06-30T10:48:20.142321 #8737]  INFO -- : worker=0 spawned pid=8737
+I, [2015-06-30T10:48:20.142999 #8737]  INFO -- : Refreshing Gem list
+I, [2015-06-30T10:48:20.143761 #8738]  INFO -- : worker=1 spawned pid=8738
+I, [2015-06-30T10:48:20.144576 #8738]  INFO -- : Refreshing Gem list
+I, [2015-06-30T10:48:20.154640 #8736]  INFO -- : worker=3 spawning...
+I, [2015-06-30T10:48:20.155511 #8736]  INFO -- : worker=4 spawning...
+I, [2015-06-30T10:48:20.156108 #8739]  INFO -- : worker=2 spawned pid=8739
+I, [2015-06-30T10:48:20.157245 #8739]  INFO -- : Refreshing Gem list
+I, [2015-06-30T10:48:20.158398 #8740]  INFO -- : worker=3 spawned pid=8740
+I, [2015-06-30T10:48:20.159132 #8740]  INFO -- : Refreshing Gem list
+I, [2015-06-30T10:48:20.176532 #8741]  INFO -- : worker=4 spawned pid=8741
+I, [2015-06-30T10:48:20.177207 #8741]  INFO -- : Refreshing Gem list
+I, [2015-06-30T10:48:20.174390 #8736]  INFO -- : master process ready
+I, [2015-06-30T10:48:28.622667 #8738]  INFO -- : worker=1 ready
+I, [2015-06-30T10:48:28.625650 #8740]  INFO -- : worker=3 ready
+I, [2015-06-30T10:48:28.628551 #8739]  INFO -- : worker=2 ready
+I, [2015-06-30T10:48:28.631693 #8737]  INFO -- : worker=0 ready
+I, [2015-06-30T10:48:28.632726 #8741]  INFO -- : worker=4 ready
+I, [2015-06-30T10:48:34.373339 #8736]  INFO -- : reloading config_file=config/unicorn.rb
+I, [2015-06-30T10:48:34.382745 #8736]  INFO -- : done reloading config_file=config/unicorn.rb
+I, [2015-06-30T10:48:34.559195 #8736]  INFO -- : reaped #<Process::Status: pid 8739 exit 0> worker=2
+I, [2015-06-30T10:48:34.559390 #8736]  INFO -- : worker=2 spawning...
+I, [2015-06-30T10:48:34.562662 #8746]  INFO -- : worker=2 spawned pid=8746
+I, [2015-06-30T10:48:34.563384 #8746]  INFO -- : Refreshing Gem list
+I, [2015-06-30T10:48:34.588179 #8736]  INFO -- : reaped #<Process::Status: pid 8738 exit 0> worker=1
+I, [2015-06-30T10:48:34.588454 #8736]  INFO -- : worker=1 spawning...
+I, [2015-06-30T10:48:34.592085 #8747]  INFO -- : worker=1 spawned pid=8747
+I, [2015-06-30T10:48:34.592842 #8747]  INFO -- : Refreshing Gem list
+I, [2015-06-30T10:48:34.594306 #8736]  INFO -- : reaped #<Process::Status: pid 8740 exit 0> worker=3
+I, [2015-06-30T10:48:34.594568 #8736]  INFO -- : worker=3 spawning...
+I, [2015-06-30T10:48:34.597922 #8748]  INFO -- : worker=3 spawned pid=8748
+I, [2015-06-30T10:48:34.598634 #8748]  INFO -- : Refreshing Gem list
+I, [2015-06-30T10:48:34.610646 #8736]  INFO -- : reaped #<Process::Status: pid 8737 exit 0> worker=0
+I, [2015-06-30T10:48:34.611140 #8736]  INFO -- : worker=0 spawning...
+I, [2015-06-30T10:48:34.614426 #8749]  INFO -- : worker=0 spawned pid=8749
+I, [2015-06-30T10:48:34.615126 #8749]  INFO -- : Refreshing Gem list
+I, [2015-06-30T10:48:34.632354 #8736]  INFO -- : reaped #<Process::Status: pid 8741 exit 0> worker=4
+I, [2015-06-30T10:48:34.632628 #8736]  INFO -- : worker=4 spawning...
+I, [2015-06-30T10:48:34.646427 #8750]  INFO -- : worker=4 spawned pid=8750
+I, [2015-06-30T10:48:34.647099 #8750]  INFO -- : Refreshing Gem list
+I, [2015-06-30T10:48:41.849558 #8749]  INFO -- : worker=0 ready
+I, [2015-06-30T10:48:41.876717 #8750]  INFO -- : worker=4 ready
+I, [2015-06-30T10:48:41.881395 #8746]  INFO -- : worker=2 ready
+I, [2015-06-30T10:48:41.886848 #8747]  INFO -- : worker=1 ready
+I, [2015-06-30T10:48:41.897772 #8748]  INFO -- : worker=3 ready
+I, [2015-06-30T10:49:39.950666 #8736]  INFO -- : reaped #<Process::Status: pid 8750 exit 0> worker=4
+I, [2015-06-30T10:49:39.952825 #8736]  INFO -- : reaped #<Process::Status: pid 8749 exit 0> worker=0
+I, [2015-06-30T10:49:39.952943 #8736]  INFO -- : reaped #<Process::Status: pid 8748 exit 0> worker=3
+I, [2015-06-30T10:49:39.953002 #8736]  INFO -- : reaped #<Process::Status: pid 8747 exit 0> worker=1
+I, [2015-06-30T10:49:39.953059 #8736]  INFO -- : reaped #<Process::Status: pid 8746 exit 0> worker=2
+I, [2015-06-30T10:49:39.953545 #8736]  INFO -- : master complete
+I, [2015-06-30T11:08:14.638312 #8928]  INFO -- : unlinking existing socket=/tmp/unicorn.unicorn_nginx.sock
+I, [2015-06-30T11:08:14.642698 #8928]  INFO -- : listening on addr=/tmp/unicorn.unicorn_nginx.sock fd=9
+I, [2015-06-30T11:08:14.642887 #8928]  INFO -- : worker=0 spawning...
+I, [2015-06-30T11:08:14.644395 #8928]  INFO -- : worker=1 spawning...
+I, [2015-06-30T11:08:14.645662 #8928]  INFO -- : worker=2 spawning...
+I, [2015-06-30T11:08:14.647097 #8928]  INFO -- : worker=3 spawning...
+I, [2015-06-30T11:08:14.648687 #8929]  INFO -- : worker=0 spawned pid=8929
+I, [2015-06-30T11:08:14.649961 #8929]  INFO -- : Refreshing Gem list
+I, [2015-06-30T11:08:14.650089 #8928]  INFO -- : worker=4 spawning...
+I, [2015-06-30T11:08:14.649726 #8930]  INFO -- : worker=1 spawned pid=8930
+I, [2015-06-30T11:08:14.651186 #8930]  INFO -- : Refreshing Gem list
+I, [2015-06-30T11:08:14.653483 #8931]  INFO -- : worker=2 spawned pid=8931
+I, [2015-06-30T11:08:14.654355 #8931]  INFO -- : Refreshing Gem list
+I, [2015-06-30T11:08:14.654117 #8932]  INFO -- : worker=3 spawned pid=8932
+I, [2015-06-30T11:08:14.655040 #8932]  INFO -- : Refreshing Gem list
+I, [2015-06-30T11:08:14.655376 #8928]  INFO -- : master process ready
+I, [2015-06-30T11:08:14.658638 #8933]  INFO -- : worker=4 spawned pid=8933
+I, [2015-06-30T11:08:14.659415 #8933]  INFO -- : Refreshing Gem list
+I, [2015-06-30T11:08:22.369458 #8932]  INFO -- : worker=3 ready
+I, [2015-06-30T11:08:22.371488 #8933]  INFO -- : worker=4 ready
+I, [2015-06-30T11:08:22.371958 #8929]  INFO -- : worker=0 ready
+I, [2015-06-30T11:08:22.373701 #8930]  INFO -- : worker=1 ready
+I, [2015-06-30T11:08:22.377989 #8931]  INFO -- : worker=2 ready
+I, [2015-06-30T11:09:34.986090 #8928]  INFO -- : reloading config_file=config/unicorn.rb
+I, [2015-06-30T11:09:35.022181 #8928]  INFO -- : done reloading config_file=config/unicorn.rb
+I, [2015-06-30T11:09:35.150656 #8928]  INFO -- : reaped #<Process::Status: pid 8931 exit 0> worker=2
+I, [2015-06-30T11:09:35.150810 #8928]  INFO -- : worker=2 spawning...
+I, [2015-06-30T11:09:35.154654 #9003]  INFO -- : worker=2 spawned pid=9003
+I, [2015-06-30T11:09:35.155310 #9003]  INFO -- : Refreshing Gem list
+I, [2015-06-30T11:09:35.158034 #8928]  INFO -- : reaped #<Process::Status: pid 8929 exit 0> worker=0
+I, [2015-06-30T11:09:35.158281 #8928]  INFO -- : worker=0 spawning...
+I, [2015-06-30T11:09:35.160551 #9004]  INFO -- : worker=0 spawned pid=9004
+I, [2015-06-30T11:09:35.161220 #9004]  INFO -- : Refreshing Gem list
+I, [2015-06-30T11:09:35.162985 #8928]  INFO -- : reaped #<Process::Status: pid 8930 exit 0> worker=1
+I, [2015-06-30T11:09:35.163241 #8928]  INFO -- : worker=1 spawning...
+I, [2015-06-30T11:09:35.167048 #9005]  INFO -- : worker=1 spawned pid=9005
+I, [2015-06-30T11:09:35.169339 #9005]  INFO -- : Refreshing Gem list
+I, [2015-06-30T11:09:35.175105 #8928]  INFO -- : reaped #<Process::Status: pid 8933 exit 0> worker=4
+I, [2015-06-30T11:09:35.175378 #8928]  INFO -- : worker=4 spawning...
+I, [2015-06-30T11:09:35.176781 #8928]  INFO -- : reaped #<Process::Status: pid 8932 exit 0> worker=3
+I, [2015-06-30T11:09:35.182054 #8928]  INFO -- : worker=3 spawning...
+I, [2015-06-30T11:09:35.184341 #9007]  INFO -- : worker=3 spawned pid=9007
+I, [2015-06-30T11:09:35.184835 #9007]  INFO -- : Refreshing Gem list
+I, [2015-06-30T11:09:35.178282 #9006]  INFO -- : worker=4 spawned pid=9006
+I, [2015-06-30T11:09:35.185941 #9006]  INFO -- : Refreshing Gem list
+I, [2015-06-30T11:09:42.565942 #9006]  INFO -- : worker=4 ready
+I, [2015-06-30T11:09:42.567645 #9004]  INFO -- : worker=0 ready
+I, [2015-06-30T11:09:42.570834 #9003]  INFO -- : worker=2 ready
+I, [2015-06-30T11:09:42.571194 #9005]  INFO -- : worker=1 ready
+I, [2015-06-30T11:09:42.576115 #9007]  INFO -- : worker=3 ready
+I, [2015-06-30T11:21:55.349255 #8928]  INFO -- : reloading config_file=config/unicorn.rb
+I, [2015-06-30T11:21:55.375738 #8928]  INFO -- : done reloading config_file=config/unicorn.rb
+I, [2015-06-30T11:21:55.984817 #8928]  INFO -- : reaped #<Process::Status: pid 9004 exit 0> worker=0
+I, [2015-06-30T11:21:55.985049 #8928]  INFO -- : worker=0 spawning...
+I, [2015-06-30T11:21:55.988328 #9200]  INFO -- : worker=0 spawned pid=9200
+I, [2015-06-30T11:21:55.989161 #9200]  INFO -- : Refreshing Gem list
+I, [2015-06-30T11:21:56.016808 #8928]  INFO -- : reaped #<Process::Status: pid 9003 exit 0> worker=2
+I, [2015-06-30T11:21:56.017364 #8928]  INFO -- : worker=2 spawning...
+I, [2015-06-30T11:21:56.019713 #9201]  INFO -- : worker=2 spawned pid=9201
+I, [2015-06-30T11:21:56.020803 #9201]  INFO -- : Refreshing Gem list
+I, [2015-06-30T11:21:56.023950 #8928]  INFO -- : reaped #<Process::Status: pid 9006 exit 0> worker=4
+I, [2015-06-30T11:21:56.024132 #8928]  INFO -- : reaped #<Process::Status: pid 9005 exit 0> worker=1
+I, [2015-06-30T11:21:56.024297 #8928]  INFO -- : worker=1 spawning...
+I, [2015-06-30T11:21:56.024926 #8928]  INFO -- : worker=4 spawning...
+I, [2015-06-30T11:21:56.026491 #9202]  INFO -- : worker=1 spawned pid=9202
+I, [2015-06-30T11:21:56.027395 #8928]  INFO -- : reaped #<Process::Status: pid 9007 exit 0> worker=3
+I, [2015-06-30T11:21:56.027356 #9202]  INFO -- : Refreshing Gem list
+I, [2015-06-30T11:21:56.027687 #8928]  INFO -- : worker=3 spawning...
+I, [2015-06-30T11:21:56.028927 #9203]  INFO -- : worker=4 spawned pid=9203
+I, [2015-06-30T11:21:56.029614 #9203]  INFO -- : Refreshing Gem list
+I, [2015-06-30T11:21:56.029695 #9204]  INFO -- : worker=3 spawned pid=9204
+I, [2015-06-30T11:21:56.030217 #9204]  INFO -- : Refreshing Gem list
+I, [2015-06-30T11:22:03.641934 #9202]  INFO -- : worker=1 ready
+I, [2015-06-30T11:22:03.642009 #9201]  INFO -- : worker=2 ready
+I, [2015-06-30T11:22:03.641949 #9204]  INFO -- : worker=3 ready
+I, [2015-06-30T11:22:03.645393 #9200]  INFO -- : worker=0 ready
+I, [2015-06-30T11:22:03.647757 #9203]  INFO -- : worker=4 ready
+I, [2015-06-30T11:23:20.566713 #8928]  INFO -- : reloading config_file=config/unicorn.rb
+I, [2015-06-30T11:23:20.583161 #8928]  INFO -- : done reloading config_file=config/unicorn.rb
+I, [2015-06-30T11:23:21.268173 #8928]  INFO -- : reaped #<Process::Status: pid 9200 exit 0> worker=0
+I, [2015-06-30T11:23:21.268407 #8928]  INFO -- : worker=0 spawning...
+I, [2015-06-30T11:23:21.269294 #8928]  INFO -- : reaped #<Process::Status: pid 9202 exit 0> worker=1
+I, [2015-06-30T11:23:21.269550 #8928]  INFO -- : worker=1 spawning...
+I, [2015-06-30T11:23:21.270784 #9214]  INFO -- : worker=0 spawned pid=9214
+I, [2015-06-30T11:23:21.271541 #9214]  INFO -- : Refreshing Gem list
+I, [2015-06-30T11:23:21.274929 #9215]  INFO -- : worker=1 spawned pid=9215
+I, [2015-06-30T11:23:21.275664 #9215]  INFO -- : Refreshing Gem list
+I, [2015-06-30T11:23:21.282432 #8928]  INFO -- : reaped #<Process::Status: pid 9201 exit 0> worker=2
+I, [2015-06-30T11:23:21.282738 #8928]  INFO -- : worker=2 spawning...
+I, [2015-06-30T11:23:21.285747 #9216]  INFO -- : worker=2 spawned pid=9216
+I, [2015-06-30T11:23:21.286521 #9216]  INFO -- : Refreshing Gem list
+I, [2015-06-30T11:23:21.294827 #8928]  INFO -- : reaped #<Process::Status: pid 9203 exit 0> worker=4
+I, [2015-06-30T11:23:21.294991 #8928]  INFO -- : reaped #<Process::Status: pid 9204 exit 0> worker=3
+I, [2015-06-30T11:23:21.295203 #8928]  INFO -- : worker=3 spawning...
+I, [2015-06-30T11:23:21.296242 #8928]  INFO -- : worker=4 spawning...
+I, [2015-06-30T11:23:21.297963 #9217]  INFO -- : worker=3 spawned pid=9217
+I, [2015-06-30T11:23:21.298630 #9217]  INFO -- : Refreshing Gem list
+I, [2015-06-30T11:23:21.298770 #9218]  INFO -- : worker=4 spawned pid=9218
+I, [2015-06-30T11:23:21.299479 #9218]  INFO -- : Refreshing Gem list
+I, [2015-06-30T11:23:28.956250 #9218]  INFO -- : worker=4 ready
+I, [2015-06-30T11:23:28.956250 #9217]  INFO -- : worker=3 ready
+I, [2015-06-30T11:23:28.957894 #9215]  INFO -- : worker=1 ready
+I, [2015-06-30T11:23:28.966763 #9214]  INFO -- : worker=0 ready
+I, [2015-06-30T11:23:28.981775 #9216]  INFO -- : worker=2 ready
+I, [2015-06-30T11:24:52.005053 #8928]  INFO -- : reloading config_file=config/unicorn.rb
+I, [2015-06-30T11:24:52.014482 #8928]  INFO -- : done reloading config_file=config/unicorn.rb
+I, [2015-06-30T11:24:52.154765 #8928]  INFO -- : reaped #<Process::Status: pid 9216 exit 0> worker=2
+I, [2015-06-30T11:24:52.154969 #8928]  INFO -- : worker=2 spawning...
+I, [2015-06-30T11:24:52.156108 #8928]  INFO -- : reaped #<Process::Status: pid 9215 exit 0> worker=1
+I, [2015-06-30T11:24:52.156449 #8928]  INFO -- : worker=1 spawning...
+I, [2015-06-30T11:24:52.157352 #9224]  INFO -- : worker=2 spawned pid=9224
+I, [2015-06-30T11:24:52.158072 #9224]  INFO -- : Refreshing Gem list
+I, [2015-06-30T11:24:52.160639 #8928]  INFO -- : reaped #<Process::Status: pid 9217 exit 0> worker=3
+I, [2015-06-30T11:24:52.160962 #8928]  INFO -- : worker=3 spawning...
+I, [2015-06-30T11:24:52.161766 #8928]  INFO -- : reaped #<Process::Status: pid 9218 exit 0> worker=4
+I, [2015-06-30T11:24:52.162144 #8928]  INFO -- : worker=4 spawning...
+I, [2015-06-30T11:24:52.162070 #9225]  INFO -- : worker=1 spawned pid=9225
+I, [2015-06-30T11:24:52.162706 #9225]  INFO -- : Refreshing Gem list
+I, [2015-06-30T11:24:52.163019 #9226]  INFO -- : worker=3 spawned pid=9226
+I, [2015-06-30T11:24:52.163680 #9226]  INFO -- : Refreshing Gem list
+I, [2015-06-30T11:24:52.166154 #9227]  INFO -- : worker=4 spawned pid=9227
+I, [2015-06-30T11:24:52.167009 #9227]  INFO -- : Refreshing Gem list
+I, [2015-06-30T11:24:52.172420 #8928]  INFO -- : reaped #<Process::Status: pid 9214 exit 0> worker=0
+I, [2015-06-30T11:24:52.172685 #8928]  INFO -- : worker=0 spawning...
+I, [2015-06-30T11:24:52.174510 #9228]  INFO -- : worker=0 spawned pid=9228
+I, [2015-06-30T11:24:52.175233 #9228]  INFO -- : Refreshing Gem list
+I, [2015-06-30T11:24:56.817791 #9224]  INFO -- : worker=2 ready
+I, [2015-06-30T11:24:56.822802 #9225]  INFO -- : worker=1 ready
+I, [2015-06-30T11:24:56.822807 #9226]  INFO -- : worker=3 ready
+I, [2015-06-30T11:24:56.825843 #9227]  INFO -- : worker=4 ready
+I, [2015-06-30T11:24:56.832247 #9228]  INFO -- : worker=0 ready
+E, [2015-06-30T11:25:13.008593 #9224] ERROR -- : app error: Missing `secret_token` and `secret_key_base` for 'production' environment, set these values in `config/secrets.yml` (RuntimeError)
+E, [2015-06-30T11:25:13.008768 #9224] ERROR -- : /Users/fw/.rvm/gems/ruby-2.2.2@global/gems/railties-4.2.1/lib/rails/application.rb:534:in `validate_secret_key_config!'
+E, [2015-06-30T11:25:13.008886 #9224] ERROR -- : /Users/fw/.rvm/gems/ruby-2.2.2@global/gems/railties-4.2.1/lib/rails/application.rb:246:in `env_config'
+E, [2015-06-30T11:25:13.008995 #9224] ERROR -- : /Users/fw/.rvm/gems/ruby-2.2.2@global/gems/railties-4.2.1/lib/rails/engine.rb:514:in `call'
+E, [2015-06-30T11:25:13.009101 #9224] ERROR -- : /Users/fw/.rvm/gems/ruby-2.2.2@global/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+E, [2015-06-30T11:25:13.009205 #9224] ERROR -- : /Users/fw/.rvm/gems/ruby-2.2.2/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:580:in `process_client'
+E, [2015-06-30T11:25:13.009341 #9224] ERROR -- : /Users/fw/.rvm/gems/ruby-2.2.2/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:674:in `worker_loop'
+E, [2015-06-30T11:25:13.009502 #9224] ERROR -- : /Users/fw/.rvm/gems/ruby-2.2.2/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:529:in `spawn_missing_workers'
+E, [2015-06-30T11:25:13.009570 #9224] ERROR -- : /Users/fw/.rvm/gems/ruby-2.2.2/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:540:in `maintain_worker_count'
+E, [2015-06-30T11:25:13.009632 #9224] ERROR -- : /Users/fw/.rvm/gems/ruby-2.2.2/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:294:in `join'
+E, [2015-06-30T11:25:13.009719 #9224] ERROR -- : /Users/fw/.rvm/gems/ruby-2.2.2/gems/unicorn-4.9.0/bin/unicorn_rails:209:in `<top (required)>'
+E, [2015-06-30T11:25:13.009813 #9224] ERROR -- : /Users/fw/.rvm/gems/ruby-2.2.2/bin/unicorn_rails:23:in `load'
+E, [2015-06-30T11:25:13.010068 #9224] ERROR -- : /Users/fw/.rvm/gems/ruby-2.2.2/bin/unicorn_rails:23:in `<main>'
+E, [2015-06-30T11:25:17.195389 #9226] ERROR -- : app error: Missing `secret_token` and `secret_key_base` for 'production' environment, set these values in `config/secrets.yml` (RuntimeError)
+E, [2015-06-30T11:25:17.195525 #9226] ERROR -- : /Users/fw/.rvm/gems/ruby-2.2.2@global/gems/railties-4.2.1/lib/rails/application.rb:534:in `validate_secret_key_config!'
+E, [2015-06-30T11:25:17.195594 #9226] ERROR -- : /Users/fw/.rvm/gems/ruby-2.2.2@global/gems/railties-4.2.1/lib/rails/application.rb:246:in `env_config'
+E, [2015-06-30T11:25:17.195654 #9226] ERROR -- : /Users/fw/.rvm/gems/ruby-2.2.2@global/gems/railties-4.2.1/lib/rails/engine.rb:514:in `call'
+E, [2015-06-30T11:25:17.195711 #9226] ERROR -- : /Users/fw/.rvm/gems/ruby-2.2.2@global/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+E, [2015-06-30T11:25:17.195768 #9226] ERROR -- : /Users/fw/.rvm/gems/ruby-2.2.2/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:580:in `process_client'
+E, [2015-06-30T11:25:17.195825 #9226] ERROR -- : /Users/fw/.rvm/gems/ruby-2.2.2/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:674:in `worker_loop'
+E, [2015-06-30T11:25:17.195881 #9226] ERROR -- : /Users/fw/.rvm/gems/ruby-2.2.2/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:529:in `spawn_missing_workers'
+E, [2015-06-30T11:25:17.195937 #9226] ERROR -- : /Users/fw/.rvm/gems/ruby-2.2.2/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:540:in `maintain_worker_count'
+E, [2015-06-30T11:25:17.195992 #9226] ERROR -- : /Users/fw/.rvm/gems/ruby-2.2.2/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:294:in `join'
+E, [2015-06-30T11:25:17.196047 #9226] ERROR -- : /Users/fw/.rvm/gems/ruby-2.2.2/gems/unicorn-4.9.0/bin/unicorn_rails:209:in `<top (required)>'
+E, [2015-06-30T11:25:17.196102 #9226] ERROR -- : /Users/fw/.rvm/gems/ruby-2.2.2/bin/unicorn_rails:23:in `load'
+E, [2015-06-30T11:25:17.196247 #9226] ERROR -- : /Users/fw/.rvm/gems/ruby-2.2.2/bin/unicorn_rails:23:in `<main>'
+E, [2015-06-30T11:25:24.375331 #9228] ERROR -- : app error: Missing `secret_token` and `secret_key_base` for 'production' environment, set these values in `config/secrets.yml` (RuntimeError)
+E, [2015-06-30T11:25:24.375508 #9228] ERROR -- : /Users/fw/.rvm/gems/ruby-2.2.2@global/gems/railties-4.2.1/lib/rails/application.rb:534:in `validate_secret_key_config!'
+E, [2015-06-30T11:25:24.375685 #9228] ERROR -- : /Users/fw/.rvm/gems/ruby-2.2.2@global/gems/railties-4.2.1/lib/rails/application.rb:246:in `env_config'
+E, [2015-06-30T11:25:24.375749 #9228] ERROR -- : /Users/fw/.rvm/gems/ruby-2.2.2@global/gems/railties-4.2.1/lib/rails/engine.rb:514:in `call'
+E, [2015-06-30T11:25:24.375810 #9228] ERROR -- : /Users/fw/.rvm/gems/ruby-2.2.2@global/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+E, [2015-06-30T11:25:24.376116 #9228] ERROR -- : /Users/fw/.rvm/gems/ruby-2.2.2/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:580:in `process_client'
+E, [2015-06-30T11:25:24.376255 #9228] ERROR -- : /Users/fw/.rvm/gems/ruby-2.2.2/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:674:in `worker_loop'
+E, [2015-06-30T11:25:24.376388 #9228] ERROR -- : /Users/fw/.rvm/gems/ruby-2.2.2/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:529:in `spawn_missing_workers'
+E, [2015-06-30T11:25:24.376505 #9228] ERROR -- : /Users/fw/.rvm/gems/ruby-2.2.2/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:540:in `maintain_worker_count'
+E, [2015-06-30T11:25:24.376608 #9228] ERROR -- : /Users/fw/.rvm/gems/ruby-2.2.2/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:294:in `join'
+E, [2015-06-30T11:25:24.376720 #9228] ERROR -- : /Users/fw/.rvm/gems/ruby-2.2.2/gems/unicorn-4.9.0/bin/unicorn_rails:209:in `<top (required)>'
+E, [2015-06-30T11:25:24.376855 #9228] ERROR -- : /Users/fw/.rvm/gems/ruby-2.2.2/bin/unicorn_rails:23:in `load'
+E, [2015-06-30T11:25:24.376983 #9228] ERROR -- : /Users/fw/.rvm/gems/ruby-2.2.2/bin/unicorn_rails:23:in `<main>'
+E, [2015-06-30T11:26:02.850460 #9228] ERROR -- : app error: Missing `secret_token` and `secret_key_base` for 'production' environment, set these values in `config/secrets.yml` (RuntimeError)
+E, [2015-06-30T11:26:02.850700 #9228] ERROR -- : /Users/fw/.rvm/gems/ruby-2.2.2@global/gems/railties-4.2.1/lib/rails/application.rb:534:in `validate_secret_key_config!'
+E, [2015-06-30T11:26:02.850817 #9228] ERROR -- : /Users/fw/.rvm/gems/ruby-2.2.2@global/gems/railties-4.2.1/lib/rails/application.rb:246:in `env_config'
+E, [2015-06-30T11:26:02.850886 #9228] ERROR -- : /Users/fw/.rvm/gems/ruby-2.2.2@global/gems/railties-4.2.1/lib/rails/engine.rb:514:in `call'
+E, [2015-06-30T11:26:02.850949 #9228] ERROR -- : /Users/fw/.rvm/gems/ruby-2.2.2@global/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+E, [2015-06-30T11:26:02.851010 #9228] ERROR -- : /Users/fw/.rvm/gems/ruby-2.2.2/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:580:in `process_client'
+E, [2015-06-30T11:26:02.851070 #9228] ERROR -- : /Users/fw/.rvm/gems/ruby-2.2.2/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:674:in `worker_loop'
+E, [2015-06-30T11:26:02.851129 #9228] ERROR -- : /Users/fw/.rvm/gems/ruby-2.2.2/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:529:in `spawn_missing_workers'
+E, [2015-06-30T11:26:02.851188 #9228] ERROR -- : /Users/fw/.rvm/gems/ruby-2.2.2/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:540:in `maintain_worker_count'
+E, [2015-06-30T11:26:02.851247 #9228] ERROR -- : /Users/fw/.rvm/gems/ruby-2.2.2/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:294:in `join'
+E, [2015-06-30T11:26:02.851306 #9228] ERROR -- : /Users/fw/.rvm/gems/ruby-2.2.2/gems/unicorn-4.9.0/bin/unicorn_rails:209:in `<top (required)>'
+E, [2015-06-30T11:26:02.851365 #9228] ERROR -- : /Users/fw/.rvm/gems/ruby-2.2.2/bin/unicorn_rails:23:in `load'
+E, [2015-06-30T11:26:02.851423 #9228] ERROR -- : /Users/fw/.rvm/gems/ruby-2.2.2/bin/unicorn_rails:23:in `<main>'
+I, [2015-06-30T11:28:52.752469 #8928]  INFO -- : reloading config_file=config/unicorn.rb
+I, [2015-06-30T11:28:52.766387 #8928]  INFO -- : done reloading config_file=config/unicorn.rb
+I, [2015-06-30T11:28:52.965431 #8928]  INFO -- : reaped #<Process::Status: pid 9226 exit 0> worker=3
+I, [2015-06-30T11:28:52.965593 #8928]  INFO -- : worker=3 spawning...
+I, [2015-06-30T11:28:52.968869 #9243]  INFO -- : worker=3 spawned pid=9243
+I, [2015-06-30T11:28:52.969704 #9243]  INFO -- : Refreshing Gem list
+I, [2015-06-30T11:28:52.970374 #8928]  INFO -- : reaped #<Process::Status: pid 9225 exit 0> worker=1
+I, [2015-06-30T11:28:52.970683 #8928]  INFO -- : worker=1 spawning...
+I, [2015-06-30T11:28:52.973602 #9244]  INFO -- : worker=1 spawned pid=9244
+I, [2015-06-30T11:28:52.974433 #9244]  INFO -- : Refreshing Gem list
+I, [2015-06-30T11:28:52.981376 #8928]  INFO -- : reaped #<Process::Status: pid 9227 exit 0> worker=4
+I, [2015-06-30T11:28:52.981724 #8928]  INFO -- : worker=4 spawning...
+I, [2015-06-30T11:28:52.984880 #9245]  INFO -- : worker=4 spawned pid=9245
+I, [2015-06-30T11:28:52.987428 #9245]  INFO -- : Refreshing Gem list
+I, [2015-06-30T11:28:52.988429 #8928]  INFO -- : reaped #<Process::Status: pid 9224 exit 0> worker=2
+I, [2015-06-30T11:28:52.988643 #8928]  INFO -- : worker=2 spawning...
+I, [2015-06-30T11:28:52.990810 #9246]  INFO -- : worker=2 spawned pid=9246
+I, [2015-06-30T11:28:52.991541 #9246]  INFO -- : Refreshing Gem list
+I, [2015-06-30T11:28:52.992844 #8928]  INFO -- : reaped #<Process::Status: pid 9228 exit 0> worker=0
+I, [2015-06-30T11:28:52.993204 #8928]  INFO -- : worker=0 spawning...
+I, [2015-06-30T11:28:52.995920 #9247]  INFO -- : worker=0 spawned pid=9247
+I, [2015-06-30T11:28:52.996484 #9247]  INFO -- : Refreshing Gem list
+I, [2015-06-30T11:29:00.281144 #9243]  INFO -- : worker=3 ready
+I, [2015-06-30T11:29:00.281144 #9247]  INFO -- : worker=0 ready
+I, [2015-06-30T11:29:00.282602 #9244]  INFO -- : worker=1 ready
+I, [2015-06-30T11:29:00.283008 #9246]  INFO -- : worker=2 ready
+I, [2015-06-30T11:29:00.284740 #9245]  INFO -- : worker=4 ready
